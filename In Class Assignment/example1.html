@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <script src="https://d3js.org/d3.v7.min.js"></script>
+      <style>
+         
+         body { font-family: Arial; }
+
+         div#svgcontainer {
+             border: 1px solid black;
+         }
+
+      </style>
+   </head>
+
+   <body>
+      <!--3.75/4*300=281-->
+      <!--30./4*300=225-->
+      <!--2.4/4*300=187.5-->
+      <div id = "svgcontainer">
+         <svg width = "300" height = "300">
+            <line x1 = "100" y1 = "100" 
+               x2 = "200" y2 = "200" style = "stroke:rgb(255,0,0);
+               stroke-width:2"/>
+            <rect x="10" y="19"  width="90" height="281" style="fill: rgb(0,255,255); stroke-width:3;"></rect>
+            <rect x="110" y="75"  width="90" height="225" style="fill: rgb(81, 255, 0); stroke-width:3;"></rect>
+            <rect x="210" y="112.5"  width="90" height="187.5" style="fill: rgb(7, 7, 7); stroke-width:3;"></rect>
+         </svg>
+      </div>
+      <h3 id="myButton" onclick="myFunction()">Click me to change my color.</h3>
+      <button type="button" class="collapsible">Open
+      Collapsible</button>
+      <div class="content">
+         <p>Use this link to turn in your in-class work. You will be graded based on participation. You are NOT expected to work on this outside of class.</p>
+      </div>
+
+      <script>
+      function myFunction() {
+         console.log("hi 4602")
+        document.getElementById("svgcontainer").style.border = "1px solid red";
+      }
+      </script>
+   </body>
+</html>

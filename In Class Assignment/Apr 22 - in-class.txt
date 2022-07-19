@@ -1,0 +1,8 @@
+Ethan Meyer
+I think this project is interesting. One thing I think would be helpful is you can visualize people round you so that in  the future work you can find people that similar with you.
+
+Emlen Easter
+I think it would be helpful if you can explain more how each line is connected like which direction each line go to.
+
+Austin Drake
+I think it is great project. One thing I think would be helpful is have a specific example that explains how each variables is correlated.
